@@ -1,0 +1,173 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  flex-grow: 1;
+  height: 100%;
+  background: $body-bg;
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  color: $body-text-color;
+}
+body {
+  background-image: url("../images/CombinedShape.png");
+  background-repeat: no-repeat;
+  @media (max-width: 375px) {
+    background-image: url("../images/mobile-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    .site-logo {
+      width: 120px;
+      height: auto;
+    }
+    .container {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .logo {
+      padding-left: 0;
+      margin-top: 2rem;
+    }
+    .images_img {
+      margin-top: -3rem;
+      width: 296px;
+      height: 209px;
+    }
+    .wrapper {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .huddle {
+      padding-top: 1rem;
+      h1 {
+        font-size: 2.4rem;
+        line-height: 1.5;
+        margin-bottom: 1.6rem;
+      }
+      p {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        margin-bottom: 1.6rem;
+      }
+      .button {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        border-radius: 20px;
+        padding: 10.71px 75px 11.29px 75px;
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+        margin-bottom: 6.4rem;
+      }
+    }
+    .icon {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+    .icon a {
+      width: 28px;
+      height: 28px;
+      border-radius: 20px;
+      border: 1px solid rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 1rem;
+    }
+  }
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+// scss
+.logo {
+  padding-left: 0;
+  margin-top: 3rem;
+  margin-bottom: 10.4rem;
+}
+.site-logo {
+  width: 200px;
+  height: auto;
+}
+.wrapper {
+  display: flex;
+  gap: 5.9rem;
+}
+.site-logo {
+  display: flex;
+}
+.huddle {
+  padding-top: 2.3rem;
+  h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+  }
+  p {
+    margin-bottom: 2.4rem;
+  }
+}
+.button {
+  background-color: #ffffff;
+  color: $body-bg;
+  border-radius: 28px;
+  padding: 13px 63px 16px 64px;
+  display: inline-block;
+  width: 200px;
+  height: 56px;
+}
+.button:active {
+  background-color: #e880e8;
+  color: #ffffff;
+  box-shadow: 2px, 4px rgba(0, 0, 0, 0.2586);
+}
+.icon {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+.icon__list {
+  display: flex;
+  gap: 1.6rem;
+}
+.icon a {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.icon a:active {
+  border: 1px solid #ff52c1;
+  color: #ff52c1;
+}

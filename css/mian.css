@@ -1,0 +1,211 @@
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins-v20-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/open-sans-v34-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/open-sans-v34-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  flex-grow: 1;
+  height: 100%;
+  background: #684BB1;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+body {
+  background-image: url("../images/CombinedShape.png");
+  background-repeat: no-repeat;
+}
+@media (max-width: 375px) {
+  body {
+    background-image: url("../images/mobile-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  body .site-logo {
+    width: 120px;
+    height: auto;
+  }
+  body .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  body .logo {
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+  body .images_img {
+    margin-top: -3rem;
+    width: 296px;
+    height: 209px;
+  }
+  body .wrapper {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  body .huddle {
+    padding-top: 1rem;
+  }
+  body .huddle h1 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    margin-bottom: 1.6rem;
+  }
+  body .huddle p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 1.6rem;
+  }
+  body .huddle .button {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 20px;
+    padding: 10.71px 75px 11.29px 75px;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 6.4rem;
+  }
+  body .icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  body .icon a {
+    width: 28px;
+    height: 28px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  padding-left: 0;
+  margin-top: 3rem;
+  margin-bottom: 10.4rem;
+}
+
+.site-logo {
+  width: 200px;
+  height: auto;
+}
+
+.wrapper {
+  display: flex;
+  gap: 5.9rem;
+}
+
+.site-logo {
+  display: flex;
+}
+
+.huddle {
+  padding-top: 2.3rem;
+}
+.huddle h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+.huddle p {
+  margin-bottom: 2.4rem;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #684BB1;
+  border-radius: 28px;
+  padding: 13px 63px 16px 64px;
+  display: inline-block;
+  width: 200px;
+  height: 56px;
+}
+
+.button:active {
+  background-color: #e880e8;
+  color: #ffffff;
+  box-shadow: 2px, 4px rgba(0, 0, 0, 0.2586);
+}
+
+.icon {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.icon__list {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.icon a {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.icon a:active {
+  border: 1px solid #ff52c1;
+  color: #ff52c1;
+}/*# sourceMappingURL=mian.css.map */
