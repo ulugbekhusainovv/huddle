@@ -1,13 +1,15 @@
-
-// @mixin responsive($size) {
-//     @if $size == desktop {
-//       @media screen and (max-width: 1020px) {
-//         @content;
-//       }
-//     } 
-//       @else if $size == mobile {
-//       @media screen and (max-width: 476px) {
-//         @content;
-//       }
-//     }
-//   }
+@mixin responsive($size) {
+  @if $size == desktop {
+    @media screen and (max-width: 1202px) {
+      @content;
+    }
+  } @else if $size == tablet {
+    @media screen and (max-width: 840px) {
+      @content;
+    }
+  } @else if $size == mobile {
+    @media screen and (max-width: 375px) {
+      @content;
+    }
+  }
+}
